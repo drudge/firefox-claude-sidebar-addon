@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Claude Sidebar",
+  "version": "1.1",
+  "description": "Access Claude AI directly in your Firefox sidebar",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "sidebar_action": {
+    "default_title": "Claude",
+    "default_panel": "claude.html",
+    "default_icon": "icon.svg"
+  },
+  "browser_action": {
+    "default_title": "Toggle Claude Sidebar",
+    "default_icon": {
+      "16": "icon.svg",
+      "32": "icon.svg"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{d1399635-a397-4ee7-bc61-d917bd5e1010}"
+    }
+  }
+}

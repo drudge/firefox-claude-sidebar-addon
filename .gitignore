@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+*.xpi
+*.zip
+web-ext-artifacts/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node (if using web-ext)
+node_modules/
