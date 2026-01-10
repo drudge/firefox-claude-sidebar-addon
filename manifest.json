@@ -22,9 +22,19 @@
   "background": {
     "scripts": ["background.js"]
   },
+  "permissions": [
+    "storage"
+  ],
+  "options_ui": {
+    "page": "settings.html",
+    "browser_style": true
+  },
   "browser_specific_settings": {
     "gecko": {
-      "id": "{d1399635-a397-4ee7-bc61-d917bd5e1010}"
+      "id": "{d1399635-a397-4ee7-bc61-d917bd5e1010}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
