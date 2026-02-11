@@ -21,3 +21,6 @@ jobs:
 
       - name: Lint extension
         run: npx web-ext lint
+
+      - name: Build extension
+        run: npx web-ext build

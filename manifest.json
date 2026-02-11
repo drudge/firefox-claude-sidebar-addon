@@ -19,12 +19,19 @@
       "32": "icon.svg"
     }
   },
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": { "default": "Alt+Shift+C" },
+      "description": "Toggle Claude Sidebar"
+    }
+  },
   "background": {
     "scripts": ["background.js"]
   },
   "permissions": [
     "storage"
   ],
+  "content_security_policy": "script-src 'self'; object-src 'self'",
   "options_ui": {
     "page": "settings.html",
     "browser_style": true

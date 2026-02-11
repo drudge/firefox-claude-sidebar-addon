@@ -76,6 +76,10 @@
       font-size: 14px;
       display: none;
     }
+    .status.error {
+      background: #fee2e2;
+      color: #991b1b;
+    }
     .help-text {
       margin-top: 8px;
       font-size: 13px;
@@ -124,6 +128,10 @@
         background: #064e3b;
         color: #6ee7b7;
       }
+      .status.error {
+        background: #7f1d1d;
+        color: #fca5a5;
+      }
       .help-text {
         color: #C2C0B6;
         opacity: 0.7;
@@ -140,13 +148,13 @@
       <label for="claudeUrl">Conversation URL</label>
       <input type="url" id="claudeUrl" placeholder="https://claude.ai/" autofocus>
       <div class="help-text">
-        Default: <a href="#" id="resetDefault">https://claude.ai/</a><br>
+        Default: <a href="#" id="resetDefault" aria-label="Reset to default URL">https://claude.ai/</a><br>
         To pin a conversation, paste the full conversation URL (e.g., https://claude.ai/chat/...)
       </div>
     </div>
 
     <button id="save">Save</button>
-    <div class="status" id="status">Settings saved!</div>
+    <div class="status" id="status" role="status" aria-live="polite">Settings saved!</div>
   </div>
 
   <script src="settings.js"></script>
