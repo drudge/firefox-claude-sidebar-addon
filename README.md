@@ -14,7 +14,7 @@ A Firefox extension that opens [Claude](https://claude.ai/) in your browser's si
 
 ~Install directly from the [Firefox Add-ons Store](https://addons.mozilla.org/firefox/addon/claude-sidebar/).~
 
-**NOTE**: Mozilla has removed the plugin from the Ad-ons Store due to a DMCA/copyright/trademark notice:
+**NOTE**: Mozilla has removed the plugin from the Add-ons Store due to a DMCA/copyright/trademark notice:
 > Your Extension Claude Sidebar was manually reviewed by the Mozilla Add-ons team in an assessment performed on our own initiative of content that was submitted to Mozilla Add-ons.
 > 
 > Our review found that your content violates the following Mozilla policy or policies:
