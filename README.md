@@ -25,6 +25,30 @@ A Firefox extension that opens [Claude](https://claude.ai/) in your browser's si
 > 
 > Based on that finding, your Extension has been permanently disabled on https://addons.mozilla.org/developers/addon/2942660/versions and is no longer available for download from Mozilla Add-ons, anywhere in the world. Users who have previously installed your add-on will be able to continue using it.
 
+DMCA Notice:
+
+> -----
+> Owner name
+> Anthropic
+> 
+> Name
+> Judith Woodward
+> 
+> Relationship
+> org
+> 
+> Trademark Registered
+> United States
+> 
+> Registration Number
+> 7645254
+> 
+> URL
+> https://addons.mozilla.org/en-US/firefox/addon/claude-sidebar/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+> 
+> Description
+> The app uses the trademarks of Anthropic without authorization. In this instance, the app uses the trademarks in both the Title and the app's Icon.
+
 ### Manual Installation (Development)
 
 1. Clone this repository
